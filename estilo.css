@@ -1,0 +1,108 @@
+body {
+ 
+    background-color: gray;
+    
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  background-color: rgb(92, 92, 231);
+  color: white;
+}
+
+div.perfil {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 50%;
+    margin: 20px auto;
+    margin-top: 5px;
+    background-color: rgba(0, 0, 255, 0.267);
+    color: white;
+    padding: 15px;
+  }
+
+  div.perfil img.izquierda {
+    float: left;
+    margin-right: 15px;
+  }
+ 
+  div.boton {
+    margin-left: 200px;
+    margin-top: 200px;
+    
+  }
+  
+  button {
+    
+    background-color: gray;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-size: 30px;
+  }
+
+  input {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: white;
+    background-color: gray;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  
+
+  div.informacion {
+    margin-top: 20px;
+    color: white;
+
+  }
+
+  p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  
+  div.lista {
+    display: none;
+}
+
+.desplegable:hover .lista{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+    display: block;
+}
+
+div.lista2 {
+   display: none;
+}
+
+.desplegable:hover .lista2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+    display: block;
+}
+
+div.lista3 {
+    display: none;
+}
+
+.desplegable:hover .lista3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+    display: block;
+}
+
+@media screen and (min-width:768px) and (max-width: 940px){
+  .body{
+      width: 600px;
+   }
+}
